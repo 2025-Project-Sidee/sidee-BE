@@ -9,4 +9,9 @@ def read_root():
 
 @app.get("/ping")
 def ping():
-    return {"message": "pong!"}
+    return {"message": "pong!"}  
+
+@app.get("/tiki")
+def taka():
+    return {"message":"taka"}
+
